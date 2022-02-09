@@ -1,0 +1,43 @@
+.rightSideBar {
+    width: 12%;
+    height: 100%;
+    opacity: 0.9;
+    text-align: center;
+    background-image: url("../../images/2880x1800_993954_[www.ArtFile.ru].jpeg");
+}
+
+.rightSideBar img {
+    width: 150px;
+}
+
+.rightSideBar h3 {
+    margin: 0;
+}
+
+.upcomingMoviesList {
+    text-align: center;
+}
+
+.upcomingMoviesList ol {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.upcomingMoviesList li {
+    font-weight: 600;
+    margin: 5px;
+
+}
+
+
+.upcomingMoviesList h4 {
+    margin: 0;
+    font-weight: 800;
+    color: #a49da4;
+    display: inline;
+}
+
+.rightSideBar a {
+    text-decoration: none;
+    color: #a1a1a1;
+}

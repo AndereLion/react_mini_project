@@ -1,0 +1,8 @@
+.App{
+    background-image: url("./images/2880x1800_993954_[www.ArtFile.ru].jpeg");
+    min-height: 1080px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #d7d7d7;
+}

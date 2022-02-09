@@ -1,0 +1,9 @@
+.detailsPage{
+    display: flex;
+    width: 70%;
+
+}
+.detailsPageRight{
+    width: 80%;
+    padding-left: 20px;
+}

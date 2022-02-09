@@ -1,0 +1,82 @@
+.allMovies {
+    width: 100%;
+    height: 85%;
+    justify-content: center;
+}
+
+.allMovies img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.posterDiv {
+    width: 9%;
+    text-align: center;
+
+}
+
+.posterDiv h4 {
+    color: black;
+    margin: 0;
+}
+
+.posterDiv a {
+    text-decoration: none;
+}
+
+.allMoviesButtonsWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+}
+
+.allPosters {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.toPageForm button {
+    border-radius: 20px;
+    border: #6e6e6e solid 1px;
+    color: #ccccd3;
+    font-weight: 600;
+    background: #90909d;
+    height: 25px;
+}
+
+.allMoviesButtons button {
+    border: medium none;
+    background-image: none;
+    float: left;
+    background-color: transparent;
+}
+
+.allMoviesButtons {
+    display: flex;
+
+}
+
+.allMoviesButtons h4 {
+    margin: 0;
+    color: #ccccd3;
+}
+
+.allMoviesButtonsWrap input {
+    width: 40px;
+    height: 20px;
+}
+
+.allMoviesButtonsWrap form {
+    padding-top: 20px;
+
+}
+
+.allMoviesButtons img {
+    width: 25px;
+}

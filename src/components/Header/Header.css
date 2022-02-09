@@ -1,0 +1,23 @@
+.header {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header button {
+    border-radius: 20px;
+    border: #6e6e6e solid 1px;
+    color: #ccccd3;
+    font-weight: 600;
+    background: #9999af;
+    height: 30px;
+}
+
+.inputForPages {
+    border-radius: 20px;
+    border: #888888 solid 1px;
+    height: 25px;
+}
