@@ -9,3 +9,9 @@
     color: #a1a1a1;
     font-weight: 700;
 }
+
+
+.sideBar-light {
+
+    background-image: url("../../images/leftSideBarLight.jpg");
+}

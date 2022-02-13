@@ -4,5 +4,14 @@
     display: flex;
     justify-content: center;
     position: relative;
-    color: #d7d7d7;
+    color: #bbbbbb;
+}
+.app-light{
+    background-image: url("./images/BackLight.jpg");
+
+
+
+}
+.app-light p,.app-light h3,.app-light li,.app-light ol h4{
+    color: #d1d1d1;
 }

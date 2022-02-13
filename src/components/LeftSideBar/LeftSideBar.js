@@ -5,7 +5,7 @@ import './LeftSideBar.css';
 
 const LeftSideBar = () => {
     return (
-        <div className={'sideBar'}>
+        <div id={'sideBar'} className={'sideBar'}>
             <Link to={'/'}><h3>All genres</h3></Link>
             <Link to={'bygenre/28'}><p>Action</p></Link>
             <Link to={'bygenre/12'}><p>Adventure</p></Link>

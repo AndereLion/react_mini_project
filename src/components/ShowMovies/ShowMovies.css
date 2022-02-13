@@ -20,6 +20,8 @@
     margin: 0;
 }
 
+
+
 .posterDiv a {
     text-decoration: none;
 }
@@ -79,4 +81,13 @@
 
 .allMoviesButtons img {
     width: 25px;
+}
+
+.toPageForm-light button {
+    border: #aeaeae solid 1px;
+    color: #a8a8af;
+    background: #e1e1e1;
+}
+.allPosters-light h4 {
+    color: #6e6e6e;
 }

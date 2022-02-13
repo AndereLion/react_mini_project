@@ -14,7 +14,7 @@ import UpcomingPage from "./pages/UpcomingPage/UpcomingPage";
 function App() {
 
     return (
-        <div className="App">
+        <div id={"app"} className="App">
             <Routes>
                 <Route path={'/'} element={<Layout/>}>
                     <Route index element={<HomePage homePage={1}/>}/>

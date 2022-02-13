@@ -17,7 +17,7 @@ const ShowMovies = ({page, setPage, movies}) => {
 
     return (
         <div className={'allMovies'}>
-            <div className={'allPosters'}>
+            <div id={'allPosters'} className={'allPosters'}>
                 {movies && movies.map((movie) =>
                     <div className={'posterDiv'} key={movie.id}>
                         <Link to={'/moviedet/' + movie.id}>
@@ -44,7 +44,7 @@ const ShowMovies = ({page, setPage, movies}) => {
                     </button>
                 </div>
 
-                <form className={'toPageForm'} onSubmit={handleSubmit(onSubmit)}>
+                <form id={'toPageForm'} className={'toPageForm'} onSubmit={handleSubmit(onSubmit)}>
                     <button type="submit">To page</button>
                     <input className={'inputForPages'} type="number" {...register('page')} />
                 </form>

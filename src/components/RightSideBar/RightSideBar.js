@@ -15,7 +15,7 @@ const RightSideBar = () => {
     }, []);
 
     return (
-        <div className={'rightSideBar'}>
+        <div id={'rightSideBar'} className={'rightSideBar'}>
             {moviesUpcoming && <img src={"https://image.tmdb.org/t/p/w200/" + moviesUpcoming[0].poster_path}
                                     alt="movieImage"/>}
             <Link to={'upcoming'}><h3>Upcoming</h3></Link>

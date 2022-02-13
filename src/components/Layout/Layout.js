@@ -10,7 +10,7 @@ const Layout = () => {
     return (
         <div className={'layout'}>
             <LeftSideBar/>
-            <div className={'wrapOutletAndHeader'}>
+            <div id={'wrapOutletAndHeader'} className={'wrapOutletAndHeader'}>
                 <Header/>
                 <Outlet/>
             </div>

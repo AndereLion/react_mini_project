@@ -5,6 +5,9 @@
     text-align: center;
     background-image: url("../../images/2880x1800_993954_[www.ArtFile.ru].jpeg");
 }
+.rightSideBar-light {
+    background-image: url("../../images/leftSideBarLight.jpg");
+}
 
 .rightSideBar img {
     width: 150px;

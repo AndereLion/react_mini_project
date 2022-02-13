@@ -14,3 +14,6 @@
     background-image: url("../../images/svetlyy-debian.jpg");
 }
 
+.wrapOutletAndHeader-light {
+    background: #ffffff;
+}
